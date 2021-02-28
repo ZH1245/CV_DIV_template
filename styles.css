@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.resume {
+  width: 80%;
+  font-family: "Ubuntu", sans-serif;
+  margin: auto;
+  margin-top: 5%;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+}
+body {
+  background-color: #e3e5e9;
+}
+.up {
+  /* background-color: aqua; */
+  /* width: 100%; */
+  padding: 50px;
+  text-align: center;
+  /* margin: 6%; */
+  background-color: #373d48;
+  color: white;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 25px;
+  /* border: 2px solid; */
+  height: 100px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.left {
+  width: 70%;
+  /* background-color: brown; */
+  float: left;
+  /* color: #b9b9b9; */
+}
+.right {
+  background-color: #f4f4f4;
+  width: 30%;
+  float: right;
+  color: #343b40;
+
+  /* background-color: darkgoldenrod; */
+  /* border: 2px solid; */
+  /* padding-left: 15px; */
+}
+
+.right h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.right hr {
+  margin-left: 22px;
+}
+.right address {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#address_head,
+#skills_head {
+  font-size: 21px;
+}
+#skills_ul {
+  letter-spacing: 1.6px;
+}
+
+.bottom {
+  clear: both;
+  background-color: bisque;
+}
+/* .contact_hr {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+/* max-width: 80%; */
+/* margin: 19px; */
+/* } */
+#name_hr {
+  border-top: 2px solid;
+  width: 50%;
+}
+#info {
+  /* padding-left: 5px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  color: #b9b9b9;
+}
+.table_left {
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table_right {
+  align-items: center;
+}
+.table_left,
+.table_right {
+  font-size: 18px;
+}
+em {
+  font-weight: 600;
+}
+.table_performance {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.left {
+  box-sizing: border-box;
+  padding: 10px;
+}
